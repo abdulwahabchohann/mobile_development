@@ -1,0 +1,25 @@
+name: spin_the_bottle
+description: A simple Flutter game for spinning the bottle and random challenges.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Add additional dependencies here if needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/bottle_1.png
+    - assets/bottle_2.png
+    - assets/bottle_3.png
+    - assets/bottle_4.png
